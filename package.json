@@ -9,11 +9,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@aws-amplify/react-native": "^1.1.5",
+    "@aws-amplify/ui-react-native": "^2.2.8",
+    "@react-native-async-storage/async-storage": "^2.0.0",
+    "@react-native-community/netinfo": "^11.3.2",
     "aws-amplify": "^6.6.0",
     "expo": "~51.0.28",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.5"
+    "react-native": "0.74.5",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-url-polyfill": "^2.0.0"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^1.2.1",
